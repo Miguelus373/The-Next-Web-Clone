@@ -1,4 +1,5 @@
 /*-------------- Common Styles ------------------*/
+/*-------------- REMOVE HEIGTS! ------------------*/
 
 * {
     margin: 0;
@@ -10,6 +11,10 @@ body, html {
     width: 100%;
     height: 100%;
     font-size: 62.5%;
+}
+
+.flex {
+    display: flex;
 }
 
 /*---------------- Nav Styels -----------------*/
@@ -85,7 +90,6 @@ nav {
     background-color: seagreen;
     margin: 20rem auto;
     width: 85%;
-    display: flex;
     flex-wrap: wrap;
     height: 50rem;
 }
@@ -107,24 +111,22 @@ nav {
 }
 
 .funding-header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: cornflowerblue;
     height: 10rem;
 }
 
-.funding-header .funding-title {
+.funding-title {
     background-color: darkgray;
 }
 
-.funding-header .funding-links {
+.funding-links {
     background-color: darkmagenta;
     
 }
 
 .funding-img {
-    display: flex;
     flex-direction: row;
     width: 100%;
     background-color: darkseagreen;
@@ -133,7 +135,7 @@ nav {
     
 }
 
-.funding-img .funding-one {
+.funding {
     height: 25rem;
     width: 25%;
     background-color: darkviolet;
@@ -143,15 +145,13 @@ nav {
 
 
 .tech-section {
-    display: flex;
     flex-wrap: wrap;
     width: 85%;
     margin: 20rem auto;
-    background-color: ghostwhite;
-    
+    background-color: ghostwhite; 
 }
 
-.tech-section .article-box{
+.article-box{
     width: 33.333333%;
     height: 30rem;
     background-color: firebrick;
@@ -169,27 +169,52 @@ nav {
 }
 
 .deals-head {
-    display: flex;
     background-color: gold;
     justify-content: space-between;
 }
 
 .deal-container {
-    display: flex;
     flex-wrap: wrap;
     background-color: green;
-    height: 40rem;
 }
 
-.deal-container .deal {
+.deal {
     width: 25%;
-    height: 30rem;
     background-color: hotpink;
     padding: 2rem;
 }
 
 /*-----------------------footer------------------*/
 
+footer {
+  position: relative;
+  bottom: 0;
+}
+
 .top-footer {
-    
+  background-color: springgreen;
+}
+
+.bottom-footer {
+  background-color: steelblue;
+}
+
+
+@media screen and (max-width: 900px) {
+  .latest-news img, .funding, .deal {
+    width: 33.3333%;
+  }
+
+  .funding-header {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .last {
+    display: none;
+  }
+
+  .article-box {
+    width: 50%;
+  }
 }
