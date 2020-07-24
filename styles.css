@@ -94,7 +94,7 @@ nav {
     height: 50rem;
 }
 
-.latest-news img {
+.news {
     width: 25%;
     
     background-color: slateblue;
@@ -201,7 +201,7 @@ footer {
 
 
 @media screen and (max-width: 900px) {
-  .latest-news img, .funding, .deal {
+  .news, .funding, .deal {
     width: 33.3333%;
   }
 
@@ -249,11 +249,11 @@ footer {
         background-color: blueviolet; 
     } 
     
-    .latest-news, .latest-funding {
+    .latest-news, .latest-funding, .tech-section, .latest-deals {
         width: 100%;
     }
 
-    .latest-news img {
+    .news {
         flex-direction: column;
         width: 95%;
         margin: 0 auto;
@@ -261,20 +261,37 @@ footer {
 
     .funding-header {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         background-color: cornflowerblue;
         height: 10rem;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .funding {
         width: 100%;
         flex-direction: column;
         height: 10rem;
-
+        width: 95%;
+        margin: 0 auto;
     }
 
     .last {
         display: none;
+    }
+    
+    .article-box {
+      width: 100%;
+    }
+
+    .deal-container {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .deal, .deals-head  {
+      width: 95%;
+      margin: 0 auto;
     }
 
 }
