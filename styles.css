@@ -83,8 +83,8 @@ nav {
 
 .latest-news {
     background-color: seagreen;
-    margin: 0 auto;
-    width: 86%;
+    margin: 20rem auto;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     height: 50rem;
@@ -97,4 +97,99 @@ nav {
     padding: 1.5rem;
 }
 
+/*-------------------latest-funding----------------------*/
 
+.latest-funding {
+    margin: 0 auto;
+    width: 85% ;
+    height: 30rem;
+  
+}
+
+.funding-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    height: 10rem;
+}
+
+.funding-header .funding-title {
+    background-color: darkgray;
+}
+
+.funding-header .funding-links {
+    background-color: darkmagenta;
+    
+}
+
+.funding-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: darkseagreen;
+    height: 30rem;
+    flex-wrap: wrap;
+    
+}
+
+.funding-img .funding-one {
+    height: 25rem;
+    width: 25%;
+    background-color: darkviolet;
+}
+
+/*---------------------------tech-section-------------------------*/
+
+
+.tech-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 20rem auto;
+    background-color: ghostwhite;
+    
+}
+
+.tech-section .article-box{
+    width: 33.333333%;
+    height: 30rem;
+    background-color: firebrick;
+    padding: 2rem;
+}
+
+
+/*-----------------------latest-deals------------------*/
+
+.latest-deals {
+    width: 85%;
+    height: 50rem;
+    margin: 0 auto;
+
+}
+
+.deals-head {
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+}
+
+.deal-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    height: 40rem;
+}
+
+.deal-container .deal {
+    width: 25%;
+    height: 30rem;
+    background-color: hotpink;
+    padding: 2rem;
+}
+
+/*-----------------------footer------------------*/
+
+.top-footer {
+    
+}
