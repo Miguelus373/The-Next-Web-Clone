@@ -19,27 +19,42 @@ body, html {
 
 /*---------------- Nav Styels -----------------*/
 
-nav {
-    width: 100%;
-    background-color: blue;
-    height: auto;
-    
+.hidden-nav {
+    background-color: #131313;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
 }
 
-.hidden-nav {
-    background-color: red;
+.hidden-nav li {
+    margin: 0 0.8rem;
+}
+
+.hidden-nav a, .sticky-nav a {
+    color: #ffffff99;
+    text-decoration: none;
 }
 
 .left-hidden-nav {
-    background-color: greenyellow;
-    float: left;
-    width: 50%;
+    width: 70%;
 }
 
 .right-hidden-nav {
-    background-color: orangered;
-    float: right;
-    width: 50%;
+    width: 30%;
+    text-align: right;
+}
+
+.hidden-nav li, .sticky-nav li, .nav-breakpoint  {
+    list-style: none;
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.sticky-nav li {
+    font-size: 1.4rem;
 }
 
 .sticky-nav {
@@ -53,7 +68,6 @@ nav {
 
 .left-sticky-nav {
     width: 50%;
-    background-color: purple;
 }
 
 .search-icon {
@@ -234,6 +248,10 @@ footer {
         position: sticky;
         top: 0;
         z-index: 120;
+    }
+
+    .hidden-nav {
+        display: none;
     }
 
     .sticky-nav {
