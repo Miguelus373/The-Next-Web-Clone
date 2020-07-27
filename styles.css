@@ -64,6 +64,24 @@ body, html {
     height: 4.8rem;
     border-bottom: rgb(204, 204, 204)  solid 0.1px;
 }
+.sticky-nav img {
+    height: auto;
+    width: 6rem;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right bottom, #d52b96, #ff4a11);
+    height: 4.8rem;
+    width: 10rem;
+    
+}
+.logo-breakpoint {
+    display: none;
+}
 
 .nav-shadow{
     box-shadow: rgb(204, 204, 204) 0 1rem 3rem;
@@ -265,6 +283,13 @@ footer {
 
   .article-box {
     width: 50%;
+  }
+
+
+
+  .logo-breakpoint {
+      
+      height: 8rem;
   }
 }
 
