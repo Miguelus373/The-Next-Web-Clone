@@ -53,41 +53,57 @@ body, html {
     font-weight: 500;
 }
 
+.sticky-nav {
+    display: flex;
+    background-color:rgb(253, 253, 253);
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    height: 4.8rem;
+    border-bottom: rgb(204, 204, 204)  solid 0.1px;
+}
+
+.nav-shadow{
+    box-shadow: rgb(204, 204, 204) 0 1rem 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.8rem;
+    z-index: -1;
+}
+
 .sticky-nav li {
     font-size: 1.4rem;
     margin: 0 0.8rem;
 }
 
 .sticky-nav a {
-    color: #555;
+    color: #aaa;
     text-decoration: none;
 }
 
-.sticky-nav {
-    display: flex;
-    background-color:rgb(231, 222, 222);
-    position: sticky;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    top: 0;
-    z-index: 100;
-    height: 4.8rem;
-    
-}
-
 .left-sticky-nav {
-    width: 97%;
+    padding: 0 1rem;
+    width: 93.5%;
 }
 
 .search-icon {
-    width: 3%;
-    height: 50%;
-    z-index: 100;
-    font-size: 2rem;
-    text-align: center;
-    border-right: solid #555 .1rem;
+    display: flex;
+    width: 6.5%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    align-items: center;    
+    justify-content: center;
     transform: scale(-1,1);
+    color: #aaa;
+    height: 100%;
+    border-right: solid #aaa 0.1rem;
+}
+
+.nav-breakpoint {
+    display: none;
 }
 
 /*------------------main----------------------*/
