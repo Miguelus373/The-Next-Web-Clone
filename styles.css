@@ -265,7 +265,7 @@ span {
 }
 
 .funding {
-    height: 25rem;
+    height: auto;
     width: 25%;
     padding: 1rem;
 }
@@ -274,24 +274,39 @@ span {
     background-color: #f42;
     color: #fff;
     font-size: 1.6rem;
-    text-align: center;
     line-height: 3rem;
 }
 
 .funding-p {
     background-color: #ff442212;
-    text-align: center;
+    height: 6rem;
 }
 
 .funding-p p {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #000
+    color: #000;
+    padding-top: 1rem;
 }
 
 .funding-p span {
     font-size: 1.2rem;
     color: rgb(43, 42, 42);
+}
+
+.funding img {
+    height: 5rem;
+    width: auto;
+    float: left;
+    margin: 1rem;
+}
+
+.fund-top-list {
+    list-style: none;
+}
+
+.fund-top-list li {
+    font-size: ;
 }
 
 /*---------------------------tech-section-------------------------*/
@@ -329,7 +344,7 @@ span {
 
 }
 
-article-list ul {
+.article-list ul {
     line-height: 2rem;
 }
 
@@ -474,7 +489,7 @@ footer {
     .funding {
         width: 100%;
         flex-direction: column;
-        height: 10rem;
+        height: auto;
         width: 95%;
         margin: 0 auto;
     }
