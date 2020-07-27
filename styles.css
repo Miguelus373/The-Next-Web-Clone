@@ -27,9 +27,20 @@ h2 {
     color: #fff
 }
 
+h3 {
+    font-size: 2.8rem;
+    color: #ff4422;
+    font-weight: 1000;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #000;
+}
+
 span {
     font-size: 1.4rem;
-    color: #ffffff99;
+    color: #f7c1c199;
 }
 
 /*---------------- Nav Styels -----------------*/
@@ -187,7 +198,7 @@ span {
 /*---------------- Latest News Styes ------------------*/
 
 .latest-news {
-    background-color: seagreen;
+    position: relative;
     margin: 20rem auto;
     width: 85%;
     flex-wrap: wrap;
@@ -195,10 +206,24 @@ span {
 }
 
 .news {
+    display: flex;
+    flex-direction: column;
     width: 25%;
-    
-    background-color: slateblue;
     padding: 1.5rem;
+}
+.news-title {
+    position: absolute;
+    top: -5rem;
+    left: 1rem;
+}
+.news a {
+    color: #aaa;
+    text-decoration: none;
+    line-height: 2rem;
+}
+.news span {
+    color: #aaa;
+    
 }
 
 /*-------------------latest-funding----------------------*/
