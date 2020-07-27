@@ -306,9 +306,31 @@ span {
 
 .article-box{
     width: 33.333333%;
-    height: 30rem;
-    background-color: firebrick;
+    height: auto;
     padding: 2rem;
+}
+
+.title {
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.article-ad {
+    background-color: #ff442212;
+}
+
+.article-ad p, span {
+    font-size: 1.4rem;
+    color: #f42;
+}
+.article-list a {
+    font-size: 1.2rem;
+    line-height: 3rem;
+
+}
+
+article-list ul {
+    line-height: 2rem;
 }
 
 
