@@ -30,7 +30,7 @@ h2 {
 h3 {
     font-size: 2.8rem;
     color: #ff4422;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 h4 {
@@ -237,24 +237,28 @@ span {
 
 .funding-header {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    background-color: cornflowerblue;
-    height: 10rem;
-}
-
-.funding-title {
-    background-color: darkgray;
+    height: 7rem;
 }
 
 .funding-links {
-    background-color: darkmagenta;
-    
+    color: #f42;
+    font-size: 1.6rem;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.funding-links a{
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;  
 }
 
 .funding-img {
     flex-direction: row;
     width: 100%;
-    background-color: darkseagreen;
     height: 30rem;
     flex-wrap: wrap;
     
@@ -263,7 +267,31 @@ span {
 .funding {
     height: 25rem;
     width: 25%;
-    background-color: darkviolet;
+    padding: 1rem;
+}
+
+.funding h5 {
+    background-color: #f42;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.funding-p {
+    background-color: #ff442212;
+    text-align: center;
+}
+
+.funding-p p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000
+}
+
+.funding-p span {
+    font-size: 1.2rem;
+    color: rgb(43, 42, 42);
 }
 
 /*---------------------------tech-section-------------------------*/
