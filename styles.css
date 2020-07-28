@@ -135,7 +135,7 @@ span {
 
 .search-icon {
     display: flex;
-    width: 6.5%;
+    width: 4.8rem;
     font-size: 1.5rem;
     font-weight: 300;
     align-items: center;    
@@ -274,16 +274,19 @@ span {
     padding: 1rem;
 }
 
-.funding h5 {
+.funding-h5 {
+    height: 3rem;
     background-color: #f42;
+}
+
+.funding h5 {
     color: #fff;
     font-size: 1.6rem;
-    line-height: 3rem;
 }
 
 .funding-p {
     background-color: #ff442212;
-    height: auto;
+    
 }
 
 .funding-p p {
@@ -308,11 +311,24 @@ span {
 .fund-list ul {
     list-style: none;
     font-size: 1.2rem;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: #ff432207;
+    padding-bottom: 2rem;
 }
 
 .fund-list hr {
     margin: 1rem 0;
+    border-width: 0;
+    height: .1rem;
+    background-color: #ff442212;   
+}
+
+.fund-list li:nth-child(1) {
+    line-height: 3.5rem;
+}
+
+.fund-list li:nth-child(1), li:nth-child(2) {
+    font-size: 1.3rem
 }
 
 
@@ -403,6 +419,12 @@ footer {
 
 .top-footer {
   background-color: springgreen;
+}
+
+.top-footer a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
 }
 
 .bottom-footer {
@@ -505,7 +527,7 @@ footer {
     }
     .search-icon-breakpoint {
         align-items: center;
-        width: 15%;
+        width: 9.6rem;
         justify-content: space-around;
         color: #aaa;
         height: 100%;
@@ -536,10 +558,6 @@ footer {
     .logo-breakpoint {
         display: none;
     }
-
-    
-
-
 
     .main-img {
         display: flex;
@@ -581,6 +599,10 @@ footer {
         height: auto;
         width: 95%;
         margin: 0 auto;
+    }
+
+    .funding ul {
+        padding-left: 2rem;
     }
 
     .last {
