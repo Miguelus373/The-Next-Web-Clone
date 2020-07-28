@@ -239,14 +239,17 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 7rem;
+}
+
+.funding-title {
+    width: 60%;
 }
 
 .funding-links {
     color: #f42;
     font-size: 1.6rem;
-    width: 25%;
-    justify-content: space-around;
+    width: 40%;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -254,6 +257,7 @@ span {
     color: inherit;
     font-size: inherit;
     text-decoration: none;  
+    margin: 0 0.5rem;
 }
 
 .funding-img {
@@ -279,11 +283,11 @@ span {
 
 .funding-p {
     background-color: #ff442212;
-    height: 6rem;
+    height: auto;
 }
 
 .funding-p p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #000;
     padding-top: 1rem;
@@ -301,13 +305,16 @@ span {
     margin: 1rem;
 }
 
-.fund-top-list {
+.fund-list ul {
     list-style: none;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
-.fund-top-list li {
-    font-size: ;
+.fund-list hr {
+    margin: 1rem 0;
 }
+
 
 /*---------------------------tech-section-------------------------*/
 
@@ -411,6 +418,14 @@ footer {
     justify-content: flex-start;
   }
 
+  .funding-title, .funding-links {
+      width: 100%;
+  }
+
+  .funding-links {
+      justify-content: flex-start;
+  }
+
   .last {
     display: none;
   }
@@ -438,6 +453,14 @@ footer {
     height: auto;
     width: 6rem;
     margin: 0 auto;   
+  }
+
+  h1 {
+      font-size: 4rem;
+  }
+
+  h2 {
+      font: 2rem;
   }
 
 }
@@ -490,8 +513,7 @@ footer {
 
     .funding-header {
         flex-direction: column;
-        justify-content: flex-start;
-        background-color: cornflowerblue;
+        justify-content: flex-end;
         height: 10rem;
         width: 95%;
         margin: 0 auto;
@@ -521,6 +543,10 @@ footer {
     .deal, .deals-head  {
       width: 95%;
       margin: 0 auto;
+    }
+
+    h1, h2 {
+        font-size: 2rem;
     }
 
 }
