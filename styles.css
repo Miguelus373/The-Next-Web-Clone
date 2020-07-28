@@ -338,6 +338,7 @@ span {
 .tech-section {
     flex-wrap: wrap;
     width: 85%;
+    height: auto;
     margin: 20rem auto;
     
 }
@@ -351,7 +352,12 @@ span {
 .title {
     flex-direction: column;
     justify-content: flex-end;
-    
+
+}
+.img1 {
+   
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .article-ad {
     background-color: #ff442212;
@@ -410,6 +416,10 @@ hr {
     color: #aaa;
 }
 
+
+
+
+
 /*-----------------------footer------------------*/
 
 footer {
@@ -428,8 +438,27 @@ footer {
 }
 
 .bottom-footer {
-  background-color: steelblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    height: 9.7rem;
 }
+
+footer span {
+    color: #aaa;
+}
+.copyright-img1 {
+    height: .9rem;
+    width: 3.8rem;
+}
+
+.copyright-img2 {
+    height: .9rem;
+    width: 6.5rem;
+}
+
+/*-----------------------Media-Querys-------------*/
 
 
 @media screen and (max-width: 900px) {
