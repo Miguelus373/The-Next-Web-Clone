@@ -351,14 +351,17 @@ span {
 
 .title {
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 
 }
+
 .img1 {
-   
+    background-image: url(./graphics/hardfork.png);
     background-size: contain;
     background-repeat: no-repeat;
-}
+    max-width: 100%;
+    height: 27.6rem;
+}    
 .article-ad {
     background-color: #ff442212;
 }
@@ -406,6 +409,10 @@ hr {
     width: 25%;
     padding: 2rem;
 }
+.deal img {
+    height: 13.5rem;
+    width: 100%;
+}
 
 .deal h3 {
     font-size: 1.6rem;
@@ -436,7 +443,6 @@ footer {
 }
 
 .footer-icons {
-    width: 35%;
     margin: 0 auto;
     justify-content: space-evenly;
 }
@@ -446,14 +452,14 @@ footer {
     color: #fff;
     background-color: #333;
     font-size: 1.6rem;
+    margin: auto 1rem;
     padding: 1rem;
     border-radius: 5rem;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .footer-links {
-    width: 28%;
     margin: 0 auto;
     justify-content: space-evenly;
     margin-top: 3rem;
@@ -463,6 +469,7 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 1.3rem;
+    margin: auto .5rem;
 }
 
 .bottom-footer {
@@ -706,8 +713,21 @@ footer span {
     }
 
     .deal, .deals-head  {
+        display: flex;
       width: 95%;
       margin: 0 auto;
+
+    }
+    .deal {
+        width: 100%;
+    }
+
+    .deal img {
+        display: flex;
+        flex-direction: row;
+        float: left;
+        width: 7.5rem;
+        height: 7.5rem;
     }
 
     h1, h2 {
