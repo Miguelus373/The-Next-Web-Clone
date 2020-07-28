@@ -223,7 +223,10 @@ span {
 }
 .news span {
     color: #aaa;
-    
+}
+
+.news img {
+    width: 100%;
 }
 
 /*-------------------latest-funding----------------------*/
@@ -398,10 +401,18 @@ hr {
 
 .deals-head {
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 2rem;
+}
+
+.deals-head a {
+    color: #f42;
+    font-size: 1.4rem;
 }
 
 .deal-container {
     flex-wrap: wrap;
+    width: 100%;
     
 }
 
@@ -565,6 +576,10 @@ footer span {
       font: 2rem;
   }
 
+  .deals-head {
+    padding: 0 2rem;
+  }
+
   .wheelchair {
       bottom: 0;
       right: 0;
@@ -672,9 +687,17 @@ footer span {
     }
 
     .news {
-        flex-direction: column;
+        flex-direction: row;
         width: 95%;
         margin: 0 auto;
+    }
+
+    .news-title {
+        padding: 0 2rem;
+    }
+
+    .news a {
+        width: 7.5rem;
     }
 
     .funding-header {
@@ -716,18 +739,27 @@ footer span {
         display: flex;
       width: 95%;
       margin: 0 auto;
-
     }
+
+    .deals-head {
+        padding: 0;
+    }
+    
     .deal {
         width: 100%;
     }
 
-    .deal img {
+    .deal img, .news img {
         display: flex;
         flex-direction: row;
         float: left;
         width: 7.5rem;
         height: 7.5rem;
+    }
+
+    .details {
+        padding-left: 1rem;
+        line-height: 2.5rem;
     }
 
     h1, h2 {
