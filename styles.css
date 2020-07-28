@@ -202,7 +202,7 @@ span {
     margin: 20rem auto;
     width: 85%;
     flex-wrap: wrap;
-    height: 50rem;
+    height: auto;
 }
 
 .news {
@@ -316,7 +316,7 @@ span {
     flex-wrap: wrap;
     width: 85%;
     margin: 20rem auto;
-    background-color: ghostwhite; 
+    
 }
 
 .article-box{
@@ -341,6 +341,7 @@ span {
 .article-list a {
     font-size: 1.2rem;
     line-height: 3rem;
+    text-decoration: none;
 
 }
 
@@ -348,30 +349,40 @@ span {
     line-height: 2rem;
 }
 
+hr {
+    background-color: #fff;
+}
+
 
 /*-----------------------latest-deals------------------*/
 
 .latest-deals {
-    width: 85%;
     height: 50rem;
     margin: 0 auto;
 
 }
 
 .deals-head {
-    background-color: gold;
     justify-content: space-between;
 }
 
 .deal-container {
     flex-wrap: wrap;
-    background-color: green;
+    
 }
 
 .deal {
     width: 25%;
-    background-color: hotpink;
     padding: 2rem;
+}
+
+.deal h3 {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.deal span {
+    color: #aaa;
 }
 
 /*-----------------------footer------------------*/
