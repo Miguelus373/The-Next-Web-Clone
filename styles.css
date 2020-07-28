@@ -356,8 +356,10 @@ span {
     line-height: 2rem;
 }
 
-hr {
-    background-color: #fff;
+hr {    
+    border-width: 0;
+    height: .1rem;
+    background-color: rgb(230, 230, 230);   
 }
 
 
@@ -470,11 +472,28 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: indianred;
+        background-color: rgb(253, 253, 253);
         clear: both;
         position: sticky;
         top: 0;
         z-index: 120;
+        height: 4.8rem;
+    }
+
+    .logo-second-bp {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to right bottom, #d52b96, #ff4a11);
+        height: 4.8rem;
+        width: 10rem;
+
+    }
+    .nav-breakpoint img {
+        height: auto;
+        width: 6rem;
+        margin: 0 auto;
+    
+
     }
 
     .hidden-nav {
@@ -484,6 +503,43 @@ footer {
     .sticky-nav {
         display: none;
     }
+    .search-icon-breakpoint {
+        align-items: center;
+        width: 15%;
+        justify-content: space-around;
+        color: #aaa;
+        height: 100%;
+        background-color: rgb(253, 253, 253);
+        
+        
+       
+    }
+    .search-bar , .menu  {
+        justify-content: center;
+        transform: scale(-1,1);
+        border-right: solid #aaa .1rem ;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.6rem;
+        
+        
+    }
+
+    .menu {
+        color: #f42;
+    }
+
+
+
+    .logo-breakpoint {
+        display: none;
+    }
+
+    
+
+
 
     .main-img {
         display: flex;
