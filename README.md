@@ -1,57 +1,62 @@
-# Project Name
+# The Next Web clone
 
-> One paragraph statement about the project.
+> In this projecet we practice on responsive design
+> by cloning this web-page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./graphics/Screenshot.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML & CSS3,
+- FlexBox, CSS-Grid, Float
+- Media Querys
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/Miguelus373/The-Next-Web-Clone/Responsive-Design/index.html)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Code Editor
+- Web Browser
+
+
 ### Setup
+
+$git clone https://github.com/sanadwj/Smashing-Magazine-Heat-map.git`
 
 ### Install
 
+- Run a local server
+
 ### Usage
 
-### Run tests
-
-### Deployment
+- Personal Project - The New York Times Clone
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Sanad Walid Abujbara**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@sanadwj](https://github.com/githubhandle)
+- Twitter: [@sandooog](https://twitter.com/sandooog)
+- Linkedin: [Sanad-Abujbara](https://linkedin.com/in/sanad-abujbara)
 
-👤 **Author2**
+👤 **Miguel Uzcátegui**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Miguelus373](https://github.com/Miguelus373 )
+- Linkedin: [Miguel-Uzcátegui](https://www.linkedin.com/in/miguelus/)
+
+
 
 ## 🤝 Contributing
 
@@ -66,8 +71,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

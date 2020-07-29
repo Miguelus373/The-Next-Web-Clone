@@ -48,7 +48,6 @@ span {
 .hidden-nav {
     background-color: #131313;
     height: 3.2rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
@@ -80,7 +79,6 @@ span {
 }
 
 .sticky-nav {
-    display: flex;
     background-color:rgb(253, 253, 253);
     position: sticky;
     justify-content: space-between;
@@ -98,7 +96,6 @@ span {
 }
 
 .logo {
-    display: flex;
     align-items: center;
     background: linear-gradient(to right bottom, #d52b96, #ff4a11);
     height: 4.8rem;
@@ -134,7 +131,6 @@ span {
 }
 
 .search-icon {
-    display: flex;
     width: 4.8rem;
     font-size: 1.5rem;
     font-weight: 300;
@@ -155,7 +151,7 @@ span {
 .main-img {
     display: grid;
     position: relative;
-    height: 40rem;
+    height: 50rem;
     margin: 1rem 2rem 1rem 1rem;
     grid-template: repeat(2, 50%) / 65% 35%;
     grid-gap: 1rem;    
@@ -216,7 +212,6 @@ span {
 }
 
 .news {
-    display: flex;
     flex-direction: column;
     width: 25%;
     padding: 1.5rem;
