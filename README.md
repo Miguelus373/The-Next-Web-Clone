@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-$git clone https://github.com/sanadwj/Smashing-Magazine-Heat-map.git`
+`$git clone https://github.com/Miguelus373/The-Next-Web-Clone.git`
 
 ### Install
 
@@ -39,9 +39,7 @@ $git clone https://github.com/sanadwj/Smashing-Magazine-Heat-map.git`
 
 ### Usage
 
-- Personal Project - The New York Times Clone
-
-
+- Personal Project - The Next Web Clone
 
 ## Authors
 
