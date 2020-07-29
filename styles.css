@@ -211,7 +211,7 @@ span {
 .latest-news {
     position: relative;
     margin: 20rem auto;
-    width: 98%;
+    width: 85%;
     flex-wrap: wrap;
     height: auto;
 }
@@ -244,7 +244,7 @@ span {
 
 .latest-funding {
     margin: 0 auto;
-    width: 98% ;
+    width: 85% ;
     height: auto;
   
 }
@@ -351,7 +351,7 @@ span {
 
 .tech-section {
     flex-wrap: wrap;
-    width: 98%;
+    width: 85%;
     height: auto;
     margin: 0 auto;
     
@@ -360,7 +360,10 @@ span {
 .article-box{
     width: 33.333333%;
     height: auto;
-    padding: 2rem;
+    padding: 1rem;
+}
+.article-box h3 {
+    line-height: 6rem;
 }
 
 .title  {
@@ -370,54 +373,96 @@ span {
     background-repeat: no-repeat;
     max-width: 100%;
     height: 27.6rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+    line-height: 3remrem;
 
 }
 
 .img1 {
-    background-image: url(./graphics/hardfork.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/hardfork.png);
 }
 
 .img2 {
-    background-image: url(./graphics/app.jpg);
+    background-image: linear-gradient(transparent, black),url(./graphics/app.jpg);
 }
 .img3 {
-    background-image: url(./graphics/news-4.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/news-4.png);
 }
 .img4 {
-    background-image: url(./graphics/tech.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/tech.png);
 }
 .img5 {
-    background-image: url(./graphics/creative.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/creative.png);
 }
 .img6{
-    background-image: url(./graphics/podiom.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/podiom.png);
 }
 .img7{
-    background-image: url(./graphics/hardfork.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/hardfork.png);
 }
 .img8 {
-    background-image: url(./graphics/lunch.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/lunch.png);
 }
 .img9 {
-    background-image: url(./graphics/distract.png);
+    background-image: linear-gradient(transparent, black),url(./graphics/distract.png);
+}
+
+.title h4 {
+    color: #fff;
+    font-size: 2rem;
+}
+.title a {
+    color: #ffffff99;
+    text-decoration: none;
 }
 .article-ad {
     background-color: #ff442212;
+    height: 9.6rem;
+    
+    
+
 }
 
-.article-ad p, .article-ad span {
+.article-ad img {
+    height: 9.6rem;
+    width: 9.6rem;
+    float: right;
+    
+    
+}
+
+ .article-ad p {
     font-size: 1.4rem;
     color: #f42;
+    padding: 1rem;
+    font-weight: 700;
+    
+    
+
 }
+.article-ad span {
+    color: #f42;
+    line-height: 3rem;
+    padding: 1rem;
+
+}
+
+
 .article-list a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 3rem;
     text-decoration: none;
+    color: rgb(80, 80, 80);
+   
 
 }
 
 .article-list ul {
-    line-height: 2rem;
+    line-height: 3rem;
+    padding: 1rem;
+    
 }
 
 hr {    
@@ -431,7 +476,7 @@ hr {
 
 .latest-deals {
     height: auto;
-    width: 98%;
+    width: 85%;
     margin: 0 auto;
 
 }
@@ -563,6 +608,9 @@ footer span {
     width: 33.3333%;
   }
 
+  .latest-news, .latest-funding, .tech-section, .latest-deals {
+      width: 98%;
+  }
   .funding-header {
     flex-direction: column;
     justify-content: flex-start;
