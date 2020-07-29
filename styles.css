@@ -155,27 +155,38 @@ span {
 .main-img {
     display: grid;
     position: relative;
-    height: 50rem;
+    height: 40rem;
     margin: 1rem 2rem 1rem 1rem;
     grid-template: repeat(2, 50%) / 65% 35%;
     grid-gap: 1rem;    
 }
 
 .grid-1 {
-    background-color: aqua;
+    background-image: url(./graphics/tnw-w.png),
+    linear-gradient(transparent, black), 
+    linear-gradient(to bottom right, #ff4322b2  30%, transparent 60%),
+    url(./graphics/news-1.png);
+
+    background-position: ;
+    background-size: 50% auto, cover, cover, cover;
+    background-repeat: no-repeat;
     position: relative;
     grid-area: 1 / 1 / 3 / 2 
 }
 
 .grid-2 {
-    background-color: red;
+    background-image: linear-gradient(transparent, black), url(./graphics/news-2.png);
     grid-area: 1 / 2 / 2 / 3;
-    
 }
 
 .grid-3 {
-    background-color: burlywood;
+    background-image: linear-gradient(transparent, black), url(./graphics/news-3.jpeg);
     grid-area: 2 / 2 / 2 / 3;
+}
+
+.grid-2, .grid-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grid-1, .grid-2, .grid-3 {
@@ -394,7 +405,7 @@ span {
     background-color: #ff442212;
 }
 
-.article-ad p, span {
+.article-ad p, .article-ad span {
     font-size: 1.4rem;
     color: #f42;
 }
@@ -714,12 +725,14 @@ footer span {
 
     .news {
         flex-direction: row;
-        width: 95%;
+        width: 98%;
         margin: 0 auto;
+        padding: 0.8rem 1.5rem;
     }
 
     .news-title {
-        padding: 0 2rem;
+        margin: 0 auto;
+        padding: 0 1.5rem;
     }
 
     .news a {
@@ -773,6 +786,7 @@ footer span {
     
     .deal {
         width: 100%;
+        padding: 0.8rem 1.5rem;
     }
 
     .deal img, .news img {
