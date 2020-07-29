@@ -166,8 +166,7 @@ span {
     linear-gradient(transparent, black), 
     linear-gradient(to bottom right, #ff4322b2  30%, transparent 60%),
     url(./graphics/news-1.png);
-
-    background-position: ;
+    background-origin: content-box, padding-box, padding-box, padding-box;
     background-size: 50% auto, cover, cover, cover;
     background-repeat: no-repeat;
     position: relative;
@@ -455,14 +454,17 @@ span {
     line-height: 3rem;
     text-decoration: none;
     color: rgb(80, 80, 80);
-   
-
 }
 
 .article-list ul {
     line-height: 3rem;
     padding: 1rem;
     
+}
+
+.article-list li {
+    font-size: 1.6rem;
+    color: #f42;
 }
 
 hr {    
@@ -476,7 +478,7 @@ hr {
 
 .latest-deals {
     height: auto;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -864,4 +866,34 @@ footer span {
         padding: 0.5rem;
     }
 
+}
+
+/*----------------Hoovers Section---------------------*/
+
+.details h4:hover, .details h3:hover {
+    color: #f42;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.article-box h3:hover, .news-title:hover, .funding-title h3:hover, .deals-head h3:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.title:hover, .search-icon:hover, .menu:hover, .search-bar:hover {
+    cursor: pointer;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.article-ad p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.article-list li a:hover {
+    color: black;
 }
