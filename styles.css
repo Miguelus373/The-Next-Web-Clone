@@ -164,7 +164,7 @@ footer span {
   display: grid;
   position: relative;
   height: 50rem;
-  margin: 1rem 2rem 1rem 1rem;
+  margin: 1rem 2rem 10rem 1rem;
   grid-template: repeat(2, 50%) / 65% 35%;
   grid-gap: 1rem;
 }
@@ -223,7 +223,8 @@ footer span {
 
 .latest-news {
   position: relative;
-  margin: 20rem auto;
+  margin: 10rem auto 5rem auto;
+  
   width: 85%;
   flex-wrap: wrap;
   height: auto;
@@ -265,7 +266,7 @@ footer span {
 
 .funding-header {
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -392,6 +393,7 @@ footer span {
   align-items: flex-start;
   padding: 1rem;
   line-height: 3rem;
+  object-fit: cover;
 }
 
 .img1 {
@@ -595,7 +597,7 @@ footer {
 }
 
 /* -----------------------Media-Querys------------- */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
   .news,
   .funding,
   .deal {
@@ -682,7 +684,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
   .nav-breakpoint {
     display: flex;
     flex-direction: row;
@@ -750,7 +752,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 50rem;
+    height: 90vh;
     margin: 1rem 0 1rem 0;
   }
 
@@ -764,6 +766,13 @@ footer {
 
   .grid-1 {
     background-image: linear-gradient(transparent, black), url(./graphics/news-1.png);
+    background-origin: padding-box;
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+  .main-date {
+    display: none;
   }
 
   .latest-news,
@@ -773,9 +782,25 @@ footer {
     width: 100%;
   }
 
+  .title{
+    height: 50vh;
+  }
+  .img1 {
+    background-size: cover;
+  }
+  
   .latest-funding,
   .latest-deals {
     height: auto;
+  }
+  .funding-links {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 3rem;
+  }
+
+  .funding-links span  {
+     display: none;
   }
 
   .news {
@@ -799,7 +824,11 @@ footer {
     justify-content: flex-end;
     height: 10rem;
     width: 95%;
-    margin: 0 auto;
+    margin: 10rem auto 0 auto;
+  }
+  .funding-title {
+    padding: 1rem;
+    width: 100%;
   }
 
   .funding {
@@ -807,6 +836,7 @@ footer {
     height: auto;
     width: 95%;
     margin: 0 auto;
+    
   }
 
   .funding ul {
