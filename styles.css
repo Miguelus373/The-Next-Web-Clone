@@ -524,6 +524,7 @@ footer span {
 footer {
   position: relative;
   bottom: 0;
+  margin-top: 5rem;
 }
 
 .top-footer {
@@ -531,12 +532,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 16rem;
+  min-height: 16rem;
 }
 
 .footer-icons {
   margin: 0 auto;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-icons a {
@@ -544,11 +547,12 @@ footer {
   color: #fff;
   background-color: #333;
   font-size: 1.6rem;
-  margin: auto 1rem;
+  margin: 0.5rem;
   padding: 1rem;
   border-radius: 5rem;
   width: 4rem;
   height: 4rem;
+  line-height: 3rem;
 }
 
 .footer-links {
@@ -569,7 +573,7 @@ footer {
   align-items: center;
   text-align: center;
   background-color: #000;
-  height: 9.7rem;
+  height: 12rem;
 }
 
 .copyright-img1 {
