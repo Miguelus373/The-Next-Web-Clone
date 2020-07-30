@@ -112,6 +112,7 @@ footer span {
   background: linear-gradient(to right bottom, #d52b96, #ff4a11);
   height: 4.8rem;
   width: 10rem;
+  display: none;
 }
 
 .logo-breakpoint {
@@ -224,7 +225,6 @@ footer span {
 .latest-news {
   position: relative;
   margin: 10rem auto 5rem auto;
-  
   width: 85%;
   flex-wrap: wrap;
   height: auto;
@@ -481,7 +481,7 @@ footer span {
 /* -----------------------latest-deals------------------ */
 .latest-deals {
   height: auto;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -634,6 +634,10 @@ footer {
   }
 
   .logo {
+    display: flex;
+    height: 4.8rem;
+    width: 10rem;
+    align-items: center;
     position: absolute;
     left: -10rem;
   }
@@ -753,7 +757,8 @@ footer {
     flex-direction: column;
     position: relative;
     height: 90vh;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem auto 1rem auto;
+    width: 98%;
   }
 
   .grid-1,
@@ -767,9 +772,9 @@ footer {
   .grid-1 {
     background-image: linear-gradient(transparent, black), url(./graphics/news-1.png);
     background-origin: padding-box;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
 
   .main-date {
     display: none;
@@ -782,25 +787,35 @@ footer {
     width: 100%;
   }
 
-  .title{
-    height: 50vh;
+  .title {
+    background-size: 100% 100%;
   }
-  .img1 {
-    background-size: cover;
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9 {
+    height: 50rem;
   }
-  
+
   .latest-funding,
   .latest-deals {
     height: auto;
   }
+
   .funding-links {
     flex-direction: column;
     align-items: flex-start;
     line-height: 3rem;
   }
 
-  .funding-links span  {
-     display: none;
+  .funding-links span {
+    display: none;
   }
 
   .news {
@@ -826,6 +841,7 @@ footer {
     width: 95%;
     margin: 10rem auto 0 auto;
   }
+
   .funding-title {
     padding: 1rem;
     width: 100%;
@@ -836,7 +852,6 @@ footer {
     height: auto;
     width: 95%;
     margin: 0 auto;
-    
   }
 
   .funding ul {
@@ -849,6 +864,14 @@ footer {
 
   .article-box {
     width: 100%;
+  }
+
+  .article-ad div {
+    width: 100%;
+  }
+
+  .article-list {
+    padding-left: 1rem;
   }
 
   /* -------------------Deal Styles------------------ */
@@ -891,6 +914,10 @@ footer {
   h1,
   h2 {
     font-size: 2rem;
+  }
+
+  .bottom-footer {
+    flex-direction: column;
   }
 
   .wheelchair {
