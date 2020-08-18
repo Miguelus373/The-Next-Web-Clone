@@ -166,7 +166,7 @@ footer span {
   position: relative;
   height: 50rem;
   margin: 1rem 2rem 10rem 1rem;
-  grid-template: repeat(2, 50%) / 65% 35%;
+  grid-template: repeat(2, 55%) / 65% 35%;
   grid-gap: 1rem;
 }
 
